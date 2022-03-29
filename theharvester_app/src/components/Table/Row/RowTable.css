@@ -1,0 +1,29 @@
+.table__row{
+    display: flex;
+    border: 1px solid rgb(231, 231, 231);
+    border-bottom: 0;
+    width: 100%;
+}
+
+.domain{
+    min-height: 60px;
+    padding: 1rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid rgb(231, 231, 231);
+}
+
+.ip{
+    min-height: 60px;
+    padding: 1rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.table__row:last-child {
+    border-bottom: 1px solid rgb(231, 231, 231);
+}

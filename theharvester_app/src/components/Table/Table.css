@@ -1,0 +1,36 @@
+.container{
+    width: 999px;
+}
+
+.table{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    border-radius: 10px;
+}    
+
+.domain__header{
+    padding: 1rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid rgb(231, 231, 231);
+    background-color: #ececec;
+    color: #343434;
+    cursor: pointer;
+}
+
+.ip__header{
+    padding: 1rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ececec;
+    color: #343434;
+    cursor: pointer;
+
+}
+
+.ip__header:hover, .domain__header:hover {
+    background-color: #dcddff;
+}

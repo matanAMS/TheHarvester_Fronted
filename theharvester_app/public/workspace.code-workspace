@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "theharvester_app",
+			"path": ".."
+		},
+		{
+			"name": "python_harvester",
+			"path": "..\\..\\..\\python_harvester"
+		}
+	],
+	"settings": {}
+}
